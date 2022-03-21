@@ -1,0 +1,17 @@
+body {
+  background-image: url(cafe.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+}
+h1 {
+  color: black;
+}
+
+#menu {
+  font-size: 20px;
+  margin-left: 750px;
+  margin-top: 300px;
+  position: absolute;
+  border: 5px double black;
+  text-align: center;
+}

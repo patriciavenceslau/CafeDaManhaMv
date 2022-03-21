@@ -1,0 +1,49 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Café Da Manhã MV</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div id="menu">
+          <form method="post" action="">
+            <h1>Café da Manhã MV 2022</h1>
+
+            <p>
+              <label><b>Nome: </b></label><br />
+              <input id="nome" name="nome" type="text" required="required" />
+            </p>
+
+            <p>
+              <label><b>CPF: </b> </label><br />
+              <input id="cpf" name="cpf" type="text" required="required" />
+            </p>
+
+            <p>
+              <label><b>Alimento:</b> </label><br />
+              <input
+                id="comida"
+                name="comida"
+                required="required"
+                type="text"
+              />
+            </p>
+
+            <input
+              class="enviar"
+              type="button"
+              value="Enviar"
+              onClick="window.alert('Cadastro realizado com sucesso!'); window.location.reload()"
+            />
+            <p>
+              <a href="lista.html">Lista de Participantes</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
